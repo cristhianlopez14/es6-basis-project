@@ -5,7 +5,7 @@ let endpoint= 'https://age-of-empires-2-api.herokuapp.com/api/v1/civilizations'
 
 function exito(response) {
     console.log(JSON.parse(response));
-}
+} 
 
 function fallo(status) {
     console.log(status);

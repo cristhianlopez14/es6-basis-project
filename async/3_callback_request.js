@@ -6,6 +6,6 @@ const r = request(endpoint, {json: true},
     function(err, response, data){
     data.results.forEach(element =>{
         console.log(`Tipo: ${element.name}`)
-        console.log('*-*-*-*-*-*-*-*-*-*-')
-    })
+        console.log('*--*--*--*--*--*--*--*--*--*--*')
+    }) 
 })
