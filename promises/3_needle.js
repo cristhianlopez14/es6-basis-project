@@ -10,7 +10,7 @@ needle('get', url)
         body.forEach(element => {
             console.log(`Tipo: ${element}`);
             console.log("*----------*");
-        });
+        }); 
     }) 
     .catch(()=>{
         console.log('error');

@@ -1,7 +1,7 @@
 let XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 
 let url = 'https://zoo-animal-api.herokuapp.com/animals/rand'
-
+ 
 function exito(response) {
     console.log(JSON.parse(response));
 } 
