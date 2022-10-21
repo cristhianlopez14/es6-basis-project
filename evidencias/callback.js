@@ -8,13 +8,11 @@ function exito(response) {
 
 function fallo(status) {
     console.log(status);
-}
+} 
 
 function get_data(url, exito, fallo) {
     let http = new XMLHttpRequest()
-
     http.open('get', url)
-
     http.send()
 
     http.onload = function(){
@@ -25,4 +23,5 @@ function get_data(url, exito, fallo) {
         }
     }
 }
+
 get_data(url, exito, fallo)

@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-let config = {
+let config = { 
     method:'get',
     url: 'https://pokeapi.co/api/v2/type'
 }
